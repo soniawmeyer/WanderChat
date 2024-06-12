@@ -20,11 +20,11 @@ WanderChat is an advanced AI-assisted travel planning chatbot designed to provid
 
 * Pretrained LLMs: [LLaMa2 7b](https://huggingface.co/meta-llama/Llama-2-7b-hf), [Mistral 7b](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2)
 * Methods Applied: Quantized Low Rank Adapter (QLoRA), Retrieval Augmented Finetuning (RAFT), Reinforcement Learning from Human Feedback (RLHF)
-	* [QLoRA LLaMa] (https://huggingface.co/beraht/llama-2-7b_qlora_falcon_417)
-	* [RAFT LLaMa] (https://huggingface.co/beraht/Llama2_Falcon_RAFT_50e_10s/tree/main)
-	* [QLoRA Mistral] (https://huggingface.co/sherrys/mistral-2-7b_qlora_falcon_426/tree/main)
-	* [RAFT Mistral] (https://huggingface.co/sherrys/426_mistral_RAFT_50e_10s)
-	* [best model (Mistral RAFT) + RLHF] (https://huggingface.co/chriztopherton/Wanderchat_Mistral_RAFT_RLHF)
+	* [QLoRA LLaMa](https://huggingface.co/beraht/llama-2-7b_qlora_falcon_417)
+	* [RAFT LLaMa](https://huggingface.co/beraht/Llama2_Falcon_RAFT_50e_10s/tree/main)
+	* [QLoRA Mistral](https://huggingface.co/sherrys/mistral-2-7b_qlora_falcon_426/tree/main)
+	* [RAFT Mistral](https://huggingface.co/sherrys/426_mistral_RAFT_50e_10s)
+	* [best model (Mistral RAFT) + RLHF](https://huggingface.co/chriztopherton/Wanderchat_Mistral_RAFT_RLHF)
 			  
 ### Evaluation
 
