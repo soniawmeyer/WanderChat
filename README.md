@@ -6,17 +6,17 @@ S. Meyer, A. Ren, S. Singh, B. Tam, and C. Ton, "A Comparison of LLM Chat Bot Im
 
 The original group that conducted this research is Sonia Meyer, Angel Ren, Shreya Singh, Bertha Tam, and Christopher Ton. Two of us, Sonia Meyer and Shreya Singh, decided to pursue publishing a smaller more focused subset of our research and project, focusing only on model comparisons and including this GitHub, however, all contributed to this work through the original research.
 
-##Introduction
+## Introduction
 
 WanderChat is an advanced AI-assisted travel planning chatbot designed to provide personalized travel recommendations. Unlike generic chatbots, WanderChat leverages cutting-edge AI technology to offer tailored suggestions based on user preferences, enhancing the travel planning experience. WanderChat does this using an enhanced travel-specific datasets tailored from Reddit travel related subreddits.
 
-##Technical Overview
+## Technical Overview
 
-###Dataset
+### Dataset
 
 * Custom travel related Reddit data (extracted via the Reddit API) [hosted on HuggingFace](https://huggingface.co/datasets/soniawmeyer/reddit-travel-QA-finetuning)
 
-###Models
+### Models
 
 * Pretrained LLMs: [LLaMa2 7b](https://huggingface.co/meta-llama/Llama-2-7b-hf), [Mistral 7b](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2)
 * Methods Applied: Quantized Low Rank Adapter (QLoRA), Retrieval Augmented Finetuning (RAFT), Reinforcement Learning from Human Feedback (RLHF)
@@ -26,11 +26,11 @@ WanderChat is an advanced AI-assisted travel planning chatbot designed to provid
 	* [RAFT Mistral] (https://huggingface.co/sherrys/426_mistral_RAFT_50e_10s)
 	* [best model (Mistral RAFT) + RLHF] (https://huggingface.co/chriztopherton/Wanderchat_Mistral_RAFT_RLHF)
 			  
-###Evaluation
+### Evaluation
 
 * Metrics: Traditional NLP, RAGAS, OpenAI GPT-4, Human Evaluation
 
-##Findings:
+## Findings:
 
 * Quantitative and RAGAS metrics do not always align with human evaluation.
 * OpenAI GPT-4 evaluation aligns closely with human evaluation.
@@ -39,14 +39,14 @@ WanderChat is an advanced AI-assisted travel planning chatbot designed to provid
 * RAFT is the best method compared to QLoRA and RAG but requires postprocessing.
 * RLHF significantly improves model performance.
 
-##Conclusion
+## Conclusion
 
 RAFT is the best method, RLHF signficantly improved performance.
 
-###License
+### License
 
 This project is licensed under the MIT License.
 
-###Contact
+### Contact
 
 For any inquiries, please contact us through GitHub.
