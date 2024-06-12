@@ -39,10 +39,6 @@ WanderChat is an advanced AI-assisted travel planning chatbot designed to provid
 * RAFT is the best method compared to QLoRA and RAG but requires postprocessing.
 * RLHF significantly improves model performance.
 
-## Conclusion
-
-RAFT is the best method, RLHF signficantly improved performance.
-
 ### License
 
 This project is licensed under the MIT License.
