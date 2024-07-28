@@ -15,6 +15,7 @@ WanderChat is an advanced AI-assisted travel planning chatbot designed to provid
 ### Dataset
 
 * Custom travel related Reddit data (extracted via the Reddit API) [hosted on HuggingFace](https://huggingface.co/datasets/soniawmeyer/reddit-travel-QA-finetuning)
+* Above dataset augmented for RAFT [hosted on HuggingFace][https://huggingface.co/datasets/soniawmeyer/reddit-travel-QA-finetuning)
 
 ### Models
 
